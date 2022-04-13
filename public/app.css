@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+    color: #211a1a;
+    font-size: 0.9em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.site-header {
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.product_lists {
+    margin-left: 5%;
+}
+
+.product {
+    width: 20%;
+    float: left;
+    border: 1px solid grey;
+    padding: 12px;
+    margin-left: 15px;
+    margin-top: 15px;
+    min-height: 200px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.product_lists .product div {
+    margin-top: 15px;
+}
+
+.btn {
+    width: 90%;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 4px;
+    padding: 5px 15px 5px 15px;
+    bottom: 0px;
+    left: 0px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.form-control {
+    width: 25%;
+}
+
+.product-cart-table {
+    width: 90%;
+    margin: 5% 5% 3% 5%;
+    text-align: center;
+    border-collapse: collapse;
+    line-height: 25px;
+}
+
+.product-cart-table th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
