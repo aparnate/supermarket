@@ -12,6 +12,13 @@ body {
     text-align: left;
 }
 
+.text-right {
+    text-align: right;
+}
+.pr-10{
+    padding-right: 10px;
+}
+
 .text-red {
     color: red;
 }
@@ -27,6 +34,7 @@ body {
 
 .product_lists {
     margin-left: 5%;
+    padding-bottom: 50%;
 }
 
 .product {
@@ -36,7 +44,7 @@ body {
     padding: 12px;
     margin-left: 15px;
     margin-top: 15px;
-    min-height: 200px;
+    min-height: 250px;
     border-radius: 5px;
     position: relative;
 }
